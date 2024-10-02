@@ -1,6 +1,6 @@
 // idatzi hemen zure funtzioak
-function ariketa1(){
-    zenbakia=zenbaakia.map(z=>z*2);
+function ariketa1(zenbakia){
+    return(zenbakia.map(z=>z*2));
 }
 function ariketa2(){
     const era = erabiltzaile.map(e=>e.izena+'k '+e.adina+' urte ditu')
